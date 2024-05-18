@@ -31,4 +31,4 @@ jobs:
           context: .
           push: true
           tags: ${{ env.DOCKER_IMAGE }}, eladhaim22/whatsapp-translator:latest
-          platforms: linux/arm/v8, linux/amd64
+          platforms: linux/amd64
